@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Виолетта Хохлова](https://up.htmlacademy.ru/htmlcss/36/user/2302317).
-* Наставник: `Неизвестно`.
+* Наставник: [Ирина Малиновская] (https://htmlacademy.ru/profile/irina-malinovskaya).
 
 ---
 
