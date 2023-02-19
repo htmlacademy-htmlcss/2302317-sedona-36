@@ -38,6 +38,30 @@ body {
     background-color: #FFFFFF;
 }
 
+.button-brown {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button-blue {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #82B3D3;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 .page-header {
     color: #000000;
     background-color: #FFFFFF;
@@ -233,7 +257,7 @@ body {
 
 /*Поиск гостиницы*/
 
-.infrastructure-lead {
+.hotels-lead {
   font-family: "PT Sans";
   text-align: center;
   font-style: bold;
@@ -245,7 +269,7 @@ body {
   background-color: #FFFFFF;
 }
 
-.infrastructure-basic {
+.hotels-basic {
   font-family: "PT Sans";
   text-align: center;
   font-style: normal;
@@ -258,7 +282,7 @@ body {
 
 /*Рассылка*/
 
-.infrastructure-lead {
+.sending-messages-lead {
   font-family: "PT Sans";
   text-align: center;
   font-style: bold;
@@ -267,9 +291,10 @@ body {
   font-size: 30;
   line-height: 36;
   color: #ffffff;
+  background-color: #000000; /*временно*/
 }
 
-.infrastructure-basic {
+.sending-messages-basic {
   font-family: "PT Sans";
   text-align: center;
   font-style: normal;
@@ -277,9 +302,11 @@ body {
   font-size: 22;
   line-height: 26;
   color: #ffffff;
+  background-color: #000000; /*временно*/
 }
 
 /*Контакты*/
+
 .contacts-phone {
   font-family: "PT Sans";
   text-align: center;
