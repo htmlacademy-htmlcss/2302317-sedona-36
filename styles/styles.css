@@ -53,12 +53,15 @@
     text-decoration: none;
   }
 
+
+  /* Попытка наложить один фон на другой
   .hero {
    background-image: url("../images/index-background.jpg"), url("../images/vector.svg");
    background-position: bottom, top;
-   background-size: 100% auto; 100% auto;
-   background-repeat: no-repeat; repeat;
+   background-size: 100% auto, 100% auto;
+   background-repeat: no-repeat, repeat;
   }
+  */
 
   .advantages-lead {
     font-family: "PT Sans";
