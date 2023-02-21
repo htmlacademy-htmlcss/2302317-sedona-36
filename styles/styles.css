@@ -305,6 +305,10 @@ body {
   background-color: #000000; /*временно*/
 }
 
+.page-footer{
+  background-color: #FFFFFF;
+}
+
 /*Контакты*/
 
 .contacts-phone {
@@ -318,3 +322,41 @@ body {
   color: #000000;
   background-color: #FFFFFF
 }
+
+/*Страница каталога*/
+
+.inner-header {
+  background-image: url("../images/promo.jpg");
+  background-position: bottom;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.inner-header-title {
+  font-style: bold;
+  font-size: 60;
+  line-height: 78;
+  color:#FFFFFF;
+}
+
+.breadcrumbs-img {
+  color: #FFFFFF;
+}
+
+.breadcrumbs-link {
+  color: #FFFFFF;
+}
+
+.catalog-filter-title {
+  font-style: bold;
+  font-size: 20;
+  line-height: 24;
+  vertical-align: top;
+  color: #FFFFFF;
+}
+
+.control {
+  font-weight: 400;
+}
+
+/*Отели*/
