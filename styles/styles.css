@@ -39,9 +39,10 @@ body {
 }
 
 .button-brown {
-  font-family: inherit;
-  font-size: 16px;
-  line-height: 16px;
+  font-family: "PT Sans";
+  font-style: bold;
+  font-size: 16;
+  line-height: 16;
   font-weight: 700;
   text-align: center;
   color: #ffffff;
@@ -51,9 +52,10 @@ body {
 }
 
 .button-blue {
-  font-family: inherit;
-  font-size: 16px;
-  line-height: 16px;
+  font-family: "PT Sans";
+  font-style: bold;
+  font-size: 16;
+  line-height: 16;
   font-weight: 700;
   text-align: center;
   color: #ffffff;
@@ -154,6 +156,7 @@ body {
 .advantages-title-1 {
     font-family: "PT Sans";
     font-style: bold;
+    font-weight: 700;
     text-transform: uppercase;
     font-size: 24;
     line-height: 28;
@@ -163,6 +166,7 @@ body {
 .advantages-description-1 {
     font-family: "PT Sans";
     font-style: normal;
+    font-weight: 400;
     font-size: 18;
     line-height: 21;
     color: #ffffff;
@@ -178,6 +182,7 @@ body {
 .advantages-title-2 {
     font-family: "PT Sans";
     font-style: bold;
+    font-weight: 700;
     text-transform: uppercase;
     font-size: 24;
     line-height: 28;
@@ -187,6 +192,7 @@ body {
 .advantages-description-2 {
     font-family: "PT Sans";
     font-style: normal;
+    font-weight: 400;
     font-size: 18;
     line-height: 21;
     color: #333333;
@@ -202,7 +208,7 @@ body {
 
 /*Инфраструктура*/
 
-.infrastructure-list{
+.infrastructure-list {
   list-style-type: none;
 }
 
@@ -325,6 +331,8 @@ body {
 
 /*Страница каталога*/
 
+/*Панель*/
+
 .inner-header {
   background-image: url("../images/promo.jpg");
   background-position: bottom;
@@ -333,10 +341,13 @@ body {
 }
 
 .inner-header-title {
+  font-family: "PT Sans";
   font-style: bold;
+  font-weight: 700;
   font-size: 60;
   line-height: 78;
   color:#FFFFFF;
+  background-color: #000000; /*временно*/
 }
 
 .breadcrumbs-img {
@@ -344,15 +355,24 @@ body {
 }
 
 .breadcrumbs-link {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16;
+  line-height: 21;
+  vertical-align: top;
   color: #FFFFFF;
 }
 
 .catalog-filter-title {
+  font-family: "PT Sans";
   font-style: bold;
+  font-weight: 700;
   font-size: 20;
   line-height: 24;
   vertical-align: top;
   color: #FFFFFF;
+  background-color: #000000; /*временно*/
 }
 
 .control {
@@ -360,3 +380,65 @@ body {
 }
 
 /*Отели*/
+
+.search {
+  font-family: "PT Sans";
+  font-style: bold;
+  font-weight: 700;
+  font-size: 30;
+  line-height: 36;
+  vertical-align: top;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.select-control {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18;
+  line-height: 21;
+  vertical-align: top;
+  color: #333333;
+}
+
+.hotel-card-title {
+  font-family: "PT Sans";
+  font-style: bold;
+  font-weight: 700;
+  font-size: 24;
+  line-height: 28;
+  vertical-align: top;
+  text-decoration: none;
+  color: #000000;
+}
+
+.hotel-card-type {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18;
+  line-height: 21;
+  vertical-align: top;
+  color: #333333;
+}
+
+.hotel-card-price{
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18;
+  line-height: 21;
+  vertical-align: top;
+  color: #333333;
+}
+
+.search {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16;
+  line-height: 20;
+  vertical-align: top;
+  color: #333333;
+}
