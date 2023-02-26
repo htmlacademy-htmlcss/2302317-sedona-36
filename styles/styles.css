@@ -30,97 +30,93 @@
     font-display: swap;
 }
 
+
+
+/*-----------------------------------------ОБЩИЕ СВОЙСТВА------------------------------------------------*/
+
 body {
-    font-family: "PT Sans",  sans-serif;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     color:#333333;
     background-color: #FFFFFF;
 }
 
+button {
+    font-style: bold;
+    text-align: center;
+    border-radius: 4px;
+    border: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
 .button-brown {
-  font-family: "PT Sans";
-  font-style: bold;
-  font-size: 16px;
-  line-height: 16px;
-  font-weight: 700px;
-  text-align: center;
-  color: #ffffff;
-  background-color: #756157;
-  text-decoration: none;
-  text-transform: uppercase;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700px;
+    background-color: #756157;
 }
 
 .button-blue {
-  font-family: "PT Sans";
-  font-style: bold;
-  font-size: 16px;
-  line-height: 16px;
-  font-weight: 700px;
-  text-align: center;
-  color: #ffffff;
-  background-color: #82B3D3;
-  text-decoration: none;
-  text-transform: uppercase;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700px;
+    background-color: #82B3D3;
 }
 
 .page-header {
     color: #000000;
     background-color: #FFFFFF;
 }
-.navigation-list {
-  list-style-type: none;
-}
 
+.navigation-list {
+    list-style-type: none;
+}
 
 .navigation-link {
     font-family: "PT Sans";
     font-style: bold;
-    line-height: 22px;
     font-weight: 700px;
+    line-height: 22px;
     text-align: left;
     color: #000000;
     background-color: #FFFFFF;
     text-decoration: none;
 }
 
-
-  /* Попытка наложить один фон на другой
-  .hero {
-   background-image: url("../images/index-background.jpg"), url("../images/vector.svg");
-   background-position: bottom, top;
-   background-size: 100% auto, 100% auto;
-   background-repeat: no-repeat, repeat;
-  }
-  */
-
 .hero {
     background-image: url("../images/index-background.jpg");
+    height: 485px;
+    width: 1200px;
     background-position: bottom;
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
 
 .visually-hidden {
-     position: absolute;
-     width: 1px;
-     height: 1px;
-     margin: -1px;
-     border: 0;
-     padding: 0;
-     white-space: nowrap;
-     clip-path: inset(100%);
-     clip: rect(0 0 0 0);
-     overflow: hidden;
-   }
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
-   /*Преимущества*/
 
+/*-----------------------------------------СТРАНИЦА СЕДОНА------------------------------------------------*/
+/*----------------------------Преимущества----------------------------*/
 
 .advantages-list {
-  list-style-type: none;
-  }
-
+    list-style-type: none;
+}
 
 .advantages-lead {
     font-family: "PT Sans";
@@ -206,10 +202,10 @@ body {
     background-color: rgba(131, 179, 211, 0.2);
 }
 
-/*Инфраструктура*/
+/*----------------------------Инфраструктура----------------------------*/
 
 .infrastructure-list {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 .infrastructure-lead{
@@ -225,236 +221,258 @@ body {
 }
 
 .infrastructure-basic {
-  font-family: "PT Sans";
-  text-align: center;
-  font-style: normal;
-  font-weight: 400px;
-  font-size: 22px;
-  line-height: 26px;
-  color: #333333;
-  background-color: #FFFFFF;
+    font-family: "PT Sans";
+    text-align: center;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 22px;
+    line-height: 26px;
+    color: #333333;
+    background-color: #FFFFFF;
 }
 
 .infrastructure-item-1 {
-  height: 385px;
-  width: 400px;
-  padding: 80px,85px,80px,85px;
-  background-color: rgba(131, 179, 211, 0.12);
+    height: 385px;
+    width: 400px;
+    padding: 80px,85px,80px,85px;
+    background-color: rgba(131, 179, 211, 0.12);
 }
 
 .infrastructure-title-1{
-  font-family: "PT Sans";
-  font-style: bold;
-  font-weight: 700px;
-  text-transform: uppercase;
-  font-size: 24px;
-  line-height: 28px;
-  color:#000000;
+    font-family: "PT Sans";
+    font-style: bold;
+    font-weight: 700px;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 28px;
+    color:#000000;
 }
 
 .infrastructure-description-1 {
-  font-family: "PT Sans";
-  font-style: normal;
-  font-weight: 400px;
-  font-size: 18px;
-  line-height: 21px;
-  color:#333333;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 21px;
+    color:#333333;
 }
 
-/*Поиск гостиницы*/
+/*----------------------------Поиск гостиницы----------------------------*/
+
+.hotels {
+    text-align: center;
+}
 
 .hotels-lead {
-  font-family: "PT Sans";
-  text-align: center;
-  font-style: bold;
-  text-transform: uppercase;
-  font-weight: 700px;
-  font-size: 30px;
-  line-height: 36px;
-  color: #000000;
-  background-color: #FFFFFF;
+    font-style: bold;
+    text-transform: uppercase;
+    font-weight: 700px;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+    background-color: #FFFFFF;
 }
 
 .hotels-basic {
-  font-family: "PT Sans";
-  text-align: center;
-  font-style: normal;
-  font-weight: 400px;
-  font-size: 22px;
-  line-height: 26px;
-  color: #333333;
-  background-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 22px;
+    line-height: 26px;
+    color: #333333;
+    background-color: #FFFFFF;
 }
 
-/*Рассылка*/
+/*----------------------------Рассылка----------------------------*/
+
+.sending-messages {
+    background: #ffffff url("../images/subscribe.jpg");
+    height: 414.8564453125px;
+    width: 1200px;
+    left: 0;
+    top: 3023px;
+    border-radius: 0;
+    padding: 96px 258px 104px 258px;
+    background-position: bottom;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
 
 .sending-messages-lead {
-  font-family: "PT Sans";
-  text-align: center;
-  font-style: bold;
-  text-transform: uppercase;
-  font-weight: 700px;
-  font-size: 30px;
-  line-height: 36px;
-  color: #ffffff;
-  background-color: #000000; /*временно*/
+    font-family: "PT Sans";
+    text-align: center;
+    font-style: bold;
+    text-transform: uppercase;
+    font-weight: 700px;
+    font-size: 30px;
+    line-height: 36px;
+    color: #ffffff;
 }
 
 .sending-messages-basic {
-  font-family: "PT Sans";
-  text-align: center;
-  font-style: normal;
-  font-weight: 400px;
-  font-size: 22px;
-  line-height: 26px;
-  color: #ffffff;
-  background-color: #000000; /*временно*/
+    font-family: "PT Sans";
+    text-align: center;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 22px;
+    line-height: 26px;
+    color: #ffffff;
 }
 
+.appointment-form {
+    text-align: center;
+}
+
+
+
 .page-footer{
-  background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 
 .footer-social-media-list {
-  list-style-type: none;
+    list-style-type: none;
 }
 
-/*Контакты*/
+/*----------------------------Контакты----------------------------*/
 
 .contacts-phone {
-  font-family: "PT Sans";
-  text-align: center;
-  font-style: normal;
-  text-transform: uppercase;
-  font-weight: 400px;
-  font-size: 40px;
-  line-height: 40px;
-  color: #000000;
-  background-color: #FFFFFF
+    font-family: "PT Sans";
+    text-align: center;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 400px;
+    font-size: 40px;
+    line-height: 40px;
+    color: #000000;
+    background-color: #FFFFFF
 }
 
-/*Страница каталога*/
 
-/*Панель*/
+/*-----------------------------------------СТРАНИЦА КАТАЛОГА------------------------------------------------*/
+/*----------------------------Панель----------------------------*/
 
 .breadcrumbs {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 .catalog-filter-list {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 .inner-header {
-  background-image: url("../images/promo.jpg");
-  background-position: bottom;
-  background-size: 100% auto;
-  background-repeat: no-repeat;
+    background-image: url("../images/promo.jpg");
+    height: 412px;
+    width: 1200px;
+    left: 0;
+    top: 64px;
+    border-radius: 0;
+    padding: 35px 70px 70px 70px;
+    background-position: bottom;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
 }
 
 .inner-header-title {
-  font-family: "PT Sans";
-  font-style: bold;
-  font-weight: 700px;
-  font-size: 60px;
-  line-height: 78px;
-  color:#FFFFFF;
-  background-color: #000000; /*временно*/
+    font-family: "PT Sans";
+    font-style: bold;
+    font-weight: 700px;
+    font-size: 60px;
+    line-height: 78px;
+    color:#FFFFFF;
 }
 
 .breadcrumbs-img {
-  color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 .breadcrumbs-link {
-  font-family: "PT Sans";
-  font-style: normal;
-  font-weight: 400px;
-  font-size: 16px;
-  line-height: 21px;
-  vertical-align: top;
-  color: #FFFFFF;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 21px;
+    vertical-align: top;
+    color: #FFFFFF;
 }
 
 .catalog-filter-title {
-  font-family: "PT Sans";
-  font-style: bold;
-  font-weight: 700px;
-  font-size: 20px;
-  line-height: 24px;
-  vertical-align: top;
-  color: #FFFFFF;
-  background-color: #000000; /*временно*/
+    font-family: "PT Sans";
+    font-style: bold;
+    font-weight: 700px;
+    font-size: 20px;
+    line-height: 24px;
+    vertical-align: top;
+    color: #FFFFFF;
+    background-color: #000000; /*временно*/
 }
 
 .control {
-  font-weight: 400px;
+    font-weight: 400px;
 }
 
-/*Отели*/
+/*----------------------------Отели----------------------------*/
 
 .hotel-list {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 .search {
-  font-family: "PT Sans";
-  font-style: bold;
-  font-weight: 700px;
-  font-size: 30px;
-  line-height: 36px;
-  vertical-align: top;
-  text-transform: uppercase;
-  color: #000000;
+    font-family: "PT Sans";
+    font-style: bold;
+    font-weight: 700px;
+    font-size: 30px;
+    line-height: 36px;
+    vertical-align: top;
+    text-transform: uppercase;
+    color: #000000;
 }
 
 .select-control {
-  font-family: "PT Sans";
-  font-style: normal;
-  font-weight: 400px;
-  font-size: 18px;
-  line-height: 21px;
-  vertical-align: top;
-  color: #333333;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 21px;
+    vertical-align: top;
+    color: #333333;
 }
 
 .hotel-card-title {
-  font-family: "PT Sans";
-  font-style: bold;
-  font-weight: 700px;
-  font-size: 24px;
-  line-height: 28px;
-  vertical-align: top;
-  text-decoration: none;
-  color: #000000;
+    font-family: "PT Sans";
+    font-style: bold;
+    font-weight: 700px;
+    font-size: 24px;
+    line-height: 28px;
+    vertical-align: top;
+    text-decoration: none;
+    color: #000000;
 }
 
 .hotel-card-type {
-  font-family: "PT Sans";
-  font-style: normal;
-  font-weight: 400px;
-  font-size: 18px;
-  line-height: 21px;
-  vertical-align: top;
-  color: #333333;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 21px;
+    vertical-align: top;
+    color: #333333;
 }
 
 .hotel-card-price{
-  font-family: "PT Sans";
-  font-style: normal;
-  font-weight: 400px;
-  font-size: 18px;
-  line-height: 21px;
-  vertical-align: top;
-  color: #333333;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 21px;
+    vertical-align: top;
+    color: #333333;
 }
 
 .search {
-  font-family: "PT Sans";
-  font-style: normal;
-  font-weight: 400px;
-  font-size: 16px;
-  line-height: 20px;
-  vertical-align: top;
-  color: #333333;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 20px;
+    vertical-align: top;
+    color: #333333;
 }
