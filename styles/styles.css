@@ -18,7 +18,18 @@
 
 /*-----------------------------------------ОБЩИЕ СВОЙСТВА------------------------------------------------*/
 
+html {
+    height: 100%;
+    background-color: #F2F2F2;
+}
+
 body {
+    margin: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 400;
@@ -26,6 +37,10 @@ body {
     line-height: 21px;
     color:#333333;
     background-color: #FFFFFF;
+}
+
+.main-container {
+    flex-grow: 1;
 }
 
 button {
@@ -57,8 +72,89 @@ button {
     background-color: #FFFFFF;
 }
 
+.navigation {
+    display: flex;
+    width: 1060px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    width: 140px;
+}
+
 .navigation-list {
+    display: flex;
+    justify-content: space-between;
     list-style-type: none;
+    margin: 0;
+    margin-left: 28px;
+    padding: 0;
+    width: 339px;
+}
+
+.navigation-user {
+    width: 268px;
+    margin-left: auto;
+}
+
+.navigation-item-1 {
+    margin: 0;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 20px;
+}
+
+.navigation-item-2 {
+    margin: 0;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 20px;
+}
+
+.navigation-item-3 {
+    margin: 0;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 20px;
+}
+
+.navigation-item-4 {
+    margin: 0;
+    display: flex;
+    padding-top: 22px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 22px;
+}
+
+.navigation-item-5 {
+    margin: 0;
+    display: flex;
+    padding-top: 22px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 22px;
+}
+
+.navigation-item-6 {
+    margin: 0;
+    display: flex;
+    padding-top: 14px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 14px;
+    width: 160px;
 }
 
 .navigation-link {
@@ -70,6 +166,14 @@ button {
     text-decoration: none;
 }
 
+.page-container {
+    width: 1200px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
 .hero {
     background-image: url("../images/index-background.jpg");
     height: 485px;
@@ -79,6 +183,10 @@ button {
     background-repeat: no-repeat;
 }
 
+.hero-1 {
+    display: block;
+    margin: 0 auto;
+}
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -98,6 +206,13 @@ button {
 
 .advantages-list {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.advantages-list-1 {
+    display: flex;
+    justify-content: space-between;
 }
 
 .advantages-lead {
@@ -176,6 +291,10 @@ button {
 
 .infrastructure-list {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .infrastructure-lead{
@@ -217,6 +336,13 @@ button {
     font-size: 18px;
     line-height: 21px;
     color:#333333;
+}
+
+.infrastructure-item-2 {
+    height: 385px;
+    width: 400px;
+    padding: 80px,85px,80px,85px;
+    background-color: rgba(255, 255, 255, 0.12);
 }
 
 /*----------------------------Поиск гостиницы----------------------------*/
@@ -274,8 +400,6 @@ button {
 .appointment-form {
     text-align: center;
 }
-
-
 
 .page-footer{
     background-color: #FFFFFF;

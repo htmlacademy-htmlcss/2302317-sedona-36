@@ -1,0 +1,59 @@
+body {
+  outline-style: solid;
+  outline-color: rgb(0, 255, 234);
+  outline-width: thin;
+}
+
+header {
+  outline-style: solid;
+  outline-color: rgb(0, 47, 255);
+  outline-width: medium;
+}
+
+footer {
+  outline-style: solid;
+  outline-color: rgb(0, 47, 255);
+  outline-width: medium;
+}
+
+nav {
+  outline-style: solid;
+  outline-color: rgb(255, 153, 0);
+  outline-width: thin;
+}
+
+ul {
+  outline-style: solid;
+  outline-color: rgb(255, 0, 0);
+  outline-width: thin;
+}
+
+li {
+  outline-style: solid;
+  outline-color: rgb(9, 255, 0);
+  outline-width: thin;
+}
+
+a {
+  outline-style: solid;
+  outline-color: rgb(225, 0, 255);
+  outline-width: thin;
+}
+
+main {
+  outline-style: solid;
+  outline-color: rgb(0, 47, 255);
+  outline-width: medium;
+}
+
+div, section {
+  outline-style: solid;
+  outline-color: rgb(153, 0, 255);
+  outline-width: thin;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+  outline-style: solid;
+  outline-color: rgb(0, 255, 242);
+  outline-width: thin;
+}
