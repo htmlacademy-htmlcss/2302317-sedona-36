@@ -8,10 +8,10 @@
   </head>
   <body>
     <header class="page-header">
-      <a href="page">
-        <img class="logo" src="images/logo/logo-sedona.svg" width="140" height="70.05" alt="Логотип Седоны">
-      </a>
       <nav class="navigation">
+        <a a class="button" href="index.html">
+          <img class="logo" src="images/logo/logo-sedona.svg" width="140" height="70.05" alt="Логотип Седоны">
+        </a>
         <ul class="navigation-list">
           <li class="navigation-item-1">
             <a class="navigation-link" href="index.html">Главная</a>
@@ -24,52 +24,59 @@
           </li>
         </ul>
         <ul class="navigation-list navigation-user">
-          <li class="navigation-item">
+          <li class="navigation-item-4">
             <a class="navigation-link" href="#">
-              <span class="visually-hidden">Поиск</span>
+              <!--<span class="search">Поиск</span> -->
+              <img class="search" src="images/search.svg" alt="Поиск">
             </a>
           </li>
-          <li class="navigation-item">
+          <li class="navigation-item-5">
             <a class="navigation-link" href="#">
-              <span class="visually-hidden">Избранное</span>
+              <!--<span class="heart">Избранное</span> -->
+              <img class="heart" src="images/heart.svg" alt="Избранное">
             </a>
           </li>
-          <li class="navigation-item">
-            <button class="button-brown" href="#">ХОЧУ СЮДА!</a>
+          <li class="navigation-item-6">
+              <button class="button-brown-navigation" href="#">ХОЧУ СЮДА!</button>
           </li>
         </ul>
       </nav>
     </header>
     <main class="main-inner">
-      <header class="inner-header">
-        <h1 class="inner-header-title">Гостиницы Седоны</h1>
-        <ul class="breadcrumbs">
-          <li class="breadcrumbs-item">
-            <img class="breadcrumbs-img" href="index.html" src="images/home.svg" alt="Домой">
-          </li>
-          <li class="breadcrumbs-item">
-            <a class="breadcrumbs-link">Гостиницы</a>
-          </li>
-        </ul>
-      </header>
-      <section class="catalog-products">
-        <h2 class="visually-hidden">Подбор гостиниц с фильтрами</h2>
-        <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-          <fieldset class="catalog-filter-group">
-            <legend class="catalog-filter-title">Инфраструктура</legend>
-            <ul class="catalog-filter-list">
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="checkbox" name="Бассейн" checked>
-                    Бассейн
-                </label>
+      <div class="inner-container">
+        <div class="inner-header-container">
+          <header class="inner-header">
+            <h1 class="inner-header-title">Гостиницы Седоны</h1>
+            <ul class="breadcrumbs">
+              <li class="breadcrumbs-item">
+                <img class="breadcrumbs-img" href="index.html" src="images/home.svg" alt="Домой">
               </li>
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="checkbox" name="Парковка" checked>
-                    Парковка
-                </label>
+              <li class="breadcrumbs-item">
+                <a class="breadcrumbs-link"> > </a>
               </li>
+              <li class="breadcrumbs-item">
+                <a class="breadcrumbs-link">Гостиницы</a>
+              </li>
+            </ul>
+          </header>
+          <section class="catalog-products">
+            <h2 class="visually-hidden">Подбор гостиниц с фильтрами</h2>
+            <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+              <fieldset class="catalog-filter-group">
+              <legend class="catalog-filter-title">Инфраструктура</legend>
+              <ul class="catalog-filter-list">
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="control-input" type="checkbox" name="Бассейн" checked>
+                      Бассейн
+                  </label>
+                </li>
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="control-input" type="checkbox" name="Парковка" checked>
+                     Парковка
+                  </label>
+                </li>
               <li class="catalog-filter-item">
                 <label class="control">
                   <input class="control-input" type="checkbox" name="WI-FI">
@@ -108,6 +115,8 @@
           <button class="button button-blue" type="submit">Применить</button>
           <button class="button" type="submit">Сбросить</button>
         </form>
+        </div>
+      </div>
         <p class="search">
           Найдено гостиниц:
           <span class="search-result">38</span>
@@ -203,39 +212,45 @@
           <a class="pagination-link" href="#">4</a>
         </li>
         <li class="pagination-item">
-          <a class="pagination-link" href="#">...</a>
+          <a class="pagination-link pagination-disabled">...</a>
         </li>
         <li class="pagination-item">
           <a class="pagination-link" href="#">10</a>
         </li>
       </ul>
-      <section class="sending-messages">
+      <section class="sending-messages-1">
         <h2 class="visually-hidden">Рассылка</h2>
-        <p class="sending-messages-lead">Подпишитесь на рассылку</p>
-        <p class="sending-messages-basic">Только полезная информация и никакого спама, честное бойскаутское!</p>
-        <form class="appointment-form" action="#" method="#">
-          <input type="text" name="e-mail" placeholder="Ваш e-mail">
-          <button class="button-blue" type="submit">Подписаться</button>
-        </form>
+        <p class="sending-messages-lead-1">Подпишитесь на рассылку</p>
+        <p class="sending-messages-basic-1">Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <div class="sending-form">
+          <form class="appointment-form" action="#" method="#">
+            <input class="form-text" type="text" name="e-mail" placeholder="Ваш e-mail">
+            <button class="button-blue-form" type="submit">Подписаться</button>
+          </form>
+        </div>
       </section>
     </main>
     <footer class="page-footer">
+      <div class="page-footer-2">
       <section class="footer-social-media">
         <h2 class="visually-hidden">Социальные сети</h2>
         <ul class="footer-social-media-list">
-          <li class="footer-social-media-item">
-            <a class="button" href="#">
+          <li class="footer-social-media-item-1">
+            <a class="button" href="https://vk.com/">
               <span class="visually-hidden">Вконтакте</span>
+              <img class="vk" src="images/vk.svg" alt="Вконтакте">
             </a>
           </li>
-          <li class="footer-social-media-item">
-            <a class="button" href="#">
+          <li class="footer-social-media-item-2">
+            <a class="button" href="https://web.telegram.org/z/">
               <span class="visually-hidden">Телеграм</span>
+              <img class="telegram" src="images/telegram.svg" alt="Телеграм">
             </a>
           </li>
-          <li class="footer-social-media-item">
-            <a class="button" href="#">
+          <li class="footer-social-media-item-3">
+            <a class="button" href="https://www.youtube.com/">
               <span class="visually-hidden">Ютуб</span>
+              <img class="youtube" src="images/youtube.svg" alt="Ютуб">
             </a>
           </li>
         </ul>
@@ -246,14 +261,12 @@
       </section>
       <section class="footer-website">
         <h2 class="visually-hidden">Сайт</h2>
-        <ul class="footer-social-media-list">
-          <li class="footer-social-media-item">
-            <a class="button" href="#">
-              <span class="visually-hidden">HTML ACADEMY</span>
-            </a>
-          </li>
-        </ul>
+        <a class="button" href="https://htmlacademy.ru/">
+          <span class="visually-hidden">HTML ACADEMY</span>
+          <img class="logo-html" src="images/logo/logo-htmlacademy.svg" alt="HTML ACADEMY">
+        </a>
       </section>
+      </div>
     </footer>
   </body>
 </html>

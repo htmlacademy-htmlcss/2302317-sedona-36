@@ -700,26 +700,42 @@ header {
 /*-----------------------------------------СТРАНИЦА КАТАЛОГА------------------------------------------------*/
 /*----------------------------Панель----------------------------*/
 
-.breadcrumbs {
-    list-style-type: none;
-}
-
 .catalog-filter-list {
     list-style-type: none;
 }
 
-.inner-header {
+.main-inner{
+    margin:0;
+    padding: 0;
+}
+
+.inner-container {
+    color: #ffffff;
+    background-color: #3e75a0;
+    background-image: url("../images/promo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 70px;
+    padding-bottom: 40px;
+    padding-top: 35px;
+    margin-bottom: 50px;
+  }
+
+  .inner-header-container {
+    width: 1060px;
+    margin: 0 auto;
+  }
+
+/*.inner-header {
     background-image: url("../images/promo.jpg");
     height: 412px;
     width: 1200px;
-    left: 0;
-    top: 64px;
-    border-radius: 0;
-    padding: 35px 70px 70px 70px;
     background-position: bottom;
     background-size: 100% auto;
     background-repeat: no-repeat;
-}
+    margin: 0;
+    padding: 0;
+}*/
 
 .inner-header-title {
     font-weight: 700;
@@ -728,15 +744,21 @@ header {
     color:#FFFFFF;
 }
 
-.breadcrumbs-img {
-    color: #FFFFFF;
+.breadcrumbs {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.breadcrumbs-item:not(:last-child) {
+    margin-right: 10.5px;
 }
 
 .breadcrumbs-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
-    vertical-align: top;
     color: #FFFFFF;
 }
 
@@ -807,4 +829,82 @@ header {
     line-height: 20px;
     vertical-align: top;
     color: #333333;
+}
+
+/*----------------------------Пагинация----------------------------*/
+
+.pagination {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.pagination-item:not(:last-child) {
+    margin-right: 8px;
+}
+
+.pagination-link {
+    display: block;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 11.36px;
+    padding-bottom: 12.64px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #82B3D3;
+    text-decoration: none;
+  }
+
+  .pagination-current {
+    color: #000000;
+    background-color: #F2F2F2;
+  }
+
+  .pagination-disabled {
+    color: #000000;
+    background-color: #ffffff;
+  }
+
+
+/*----------------------------Рассылка----------------------------*/
+.sending-messages-1 {
+    background: #FFFFFF;
+    height: 414.8564453125px;
+    width: 1200px;
+    border-radius: 0;
+    background-position: bottom;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.sending-messages-lead-1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    padding-top: 96px;
+}
+
+.sending-messages-basic-1 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #333333;
+    height: 52.51px;
+    width: 475px;
+    margin-top: 20px;
+    margin-right: 362.5px;
+    margin-bottom: 54px;
+    margin-left: 362.5px;
 }
