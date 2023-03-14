@@ -700,9 +700,6 @@ header {
 /*-----------------------------------------СТРАНИЦА КАТАЛОГА------------------------------------------------*/
 /*----------------------------Панель----------------------------*/
 
-.catalog-filter-list {
-    list-style-type: none;
-}
 
 .main-inner{
     margin:0;
@@ -711,6 +708,7 @@ header {
 
 .inner-container {
     color: #ffffff;
+    height: 412px;
     background-color: #3e75a0;
     background-image: url("../images/promo.jpg");
     background-size: cover;
@@ -718,7 +716,6 @@ header {
     padding: 70px;
     padding-bottom: 40px;
     padding-top: 35px;
-    margin-bottom: 50px;
   }
 
   .inner-header-container {
@@ -742,6 +739,9 @@ header {
     font-size: 60px;
     line-height: 78px;
     color:#FFFFFF;
+    height: 78px;
+    margin: 0;
+    margin-bottom: 8px;
 }
 
 .breadcrumbs {
@@ -749,7 +749,13 @@ header {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    margin-bottom: 40px;
 }
+
+.item-icon {
+    min-width: 12px;
+    min-height: 12px;
+  }
 
 .breadcrumbs-item:not(:last-child) {
     margin-right: 10.5px;
@@ -762,18 +768,133 @@ header {
     color: #FFFFFF;
 }
 
+/*----------------------------меню выбора----------------------------*/
+.catalog-products {
+    margin-top: 69px;
+}
+
+
+.catalog-filter{
+    display: flex;
+}
+
+.catalog-filter-group-1 {
+    width: 150.43px;
+    height: 157px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    margin-bottom: 30px;
+    margin-right: 70px;
+}
 .catalog-filter-title {
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
-    vertical-align: top;
     color: #FFFFFF;
-    background-color: #000000; /*временно*/
+    padding: 0;
+    margin-bottom: 32px;
 }
+
+
+.catalog-filter-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.catalog-filter-item:not(:last-child) {
+    margin-bottom: 16px;
+  }
 
 .control {
     font-weight: 400;
+    display: block;
+    position: relative;
+    padding-left: 36px;
+  }
+
+.control-mark {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+  left: 0;
+  cursor: pointer;
 }
+
+.control-mark-checkbox {
+  border-radius: 4px;
+}
+
+.control-mark-radio {
+  border-radius: 50%;
+}
+
+.control-label {
+    line-height: 23px;
+    cursor: pointer;
+}
+
+.catalog-filter-group-2 {
+    width: 150.43px;
+    height: 157px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    margin-bottom: 30px;
+    margin-right: 140.15px;
+}
+
+.catalog-filter-group-3 {
+    width: 288px;
+    height: 160px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    margin-bottom: 30px;
+    margin-right: 70px;
+}
+
+.filter-button {
+    width: 191px;
+    padding-top: 56px;
+    margin-bottom: 30px;
+  }
+
+.catalog-filter-button {
+  text-align: center;
+  width: 191px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.select {
+  margin-bottom: 32px;
+}
+
+.reset {
+  background-color: transparent;
+}
+
+.button-catalog {
+    font: inherit;
+    line-height: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 8px;
+    display: inline-block;
+  }
+
+  .button-blue-catalog {
+    background-color: #82b3d3;
+  }
 
 /*----------------------------Отели----------------------------*/
 
