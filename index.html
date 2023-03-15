@@ -54,28 +54,28 @@
           <div class="advantages-list-1">
             <li class="advantages-item-1">
               <h3 class="advantages-title-1">Настоящий городок</h3>
-              <p class="advantages-description-1">Седона - не атракцион для туристов, там течет своя жизнь</p>
+              <p class="advantages-description-1 decorative-line-white">Седона - не атракцион для туристов, там течет своя жизнь</p>
             </li>
             <img class="advantages-img" src="images/photo-1.jpg" width="800" height="385" left="400" alt="Городок">
           </div>
           <div class="advantages-list-1">
           <li class="advantages-item-2">
             <h3 class="advantages-title-2">Небольшая площадь</h3>
-            <p class="advantages-description-2">Все достопримечательности находятся близко</p>
+            <p class="advantages-description-2 decorative-line-grey">Все достопримечательности находятся близко</p>
           </li>
           <li class="advantages-item-3">
             <h3 class="advantages-title-2">Красивая дорога</h3>
-            <p class="advantages-description-2">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+            <p class="advantages-description-2 decorative-line-grey">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </li>
           <li class="advantages-item-2">
             <h3 class="advantages-title-2">Мало туристов</h3>
-            <p class="advantages-description-2">Большинство едет в Гранд-Каньон и толпится там</p>
+            <p class="advantages-description-2 decorative-line-grey">Большинство едет в Гранд-Каньон и толпится там</p>
           </li>
           </div>
           <div class="advantages-list-1">
           <li class="advantages-item-1">
             <h3 class="advantages-title-1">Там есть мост Дьявола</h3>
-            <p class="advantages-description-1">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+            <p class="advantages-description-1 decorative-line-white">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
           </li>
           <img class="advantages-img" src="images/photo-2.jpg" width="800" height="385" alt="Мост Дьявола">
           </div>
@@ -165,5 +165,75 @@
       </section>
       </div>
     </footer>
+    <div class="modal-container-1 modal-container-close">
+      <div class="modal modal-auth">
+        <button class="modal-close-button" type="button">
+          <svg class="modal-close-icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 14 14">
+            <path d="M14 1.3 12.7 0 7 5.7 1.3 0 0 1.3 5.7 7 0 12.7 1.3 14 7 8.3l5.7 5.7 1.3-1.3L8.3 7 14 1.3Z"/>
+          </svg>
+          <span class="visually-hidden">Закрыть.</span>
+        </button>
+        <section class="modal-content">
+          <h2 class="modal-title">Поиск гостиницы в седоне</h2>
+          <div class="modal-content-container">
+            <form class="modal-form" action="https://echo.htmlacademy.ru/" method="get">
+              <div class="modal-form-container">
+                <label class="modal-form-label" for="date-start">Дата заезда:</label>
+                <input class="modal-form-input modal-form-date" id="date-start" type="text" name="check-in-date" placeholder="Укажите дату" value="27 апреля 2020" required>
+                <span class="modal-form-comment comment-close comment-not">Мы не можем отправить вас в прошлое.</span>
+              </div>
+              <div class="modal-form-container">
+                <label class="modal-form-label" for="date-end">Дата выезда:</label>
+                <input class="modal-form-input modal-form-date" id="date-end" type="text" name="check-out-date" placeholder="Укажите дату" value="1 сентября 2023" required>
+                <span class="modal-form-comment comment-close">На эти даты есть свободные номера. Пока есть.</span>
+              </div>
+              <div class="modal-form-wrapper">
+                  <label class="modal-form-label" for="number-adult">Взрослые:</label>
+                  <button class="modal-form-button button-less" type="button">
+                    <svg class="button-icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+                      <path d="M3 9v2h14V9H3Z"/>
+                    </svg>
+                    <span class="visually-hidden">Уменьшить количество человек.</span>
+                  </button>
+                  <input class="modal-form-input modal-form-number" id="number-adult" type="number" name="number-adult" min="0" value="2" required>
+                  <button class="modal-form-button button-more" type="button">
+                    <svg class="button-icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+                      <path d="M17 9h-6V3H9v6H3v2h6v6h2v-6h6V9Z"/>
+                    </svg>
+                    <span class="visually-hidden">Увеличить количество человек.</span>
+                  </button>
+                </div>
+              <div class="modal-form-wrapper">
+                <span class="form-label form-label-icon">
+                  <label class="modal-form-label icon" for="number-children">Дети:</label>
+                  <span class="tooltip">
+                    <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-number-children">
+                      <svg class="tooltip-icon" aria-hidden="true" focusable="false" width="2" height="12" viewBox="0 0 2 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H2V2H0V0ZM2 12H0V3H2V12Z" fill="white"/>
+                      </svg>
+                    </button>
+                    <span class="tooltip-text tooltip-text-close" role="tooltip" id="tooltip-number-children">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
+                  </span>
+                </span>
+                <button class="modal-form-button button-less" type="button">
+                  <svg class="button-icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+                    <path d="M3 9v2h14V9H3Z"/>
+                  </svg>
+                  <span class="visually-hidden">Уменьшить количество человек.</span>
+                </button>
+                <input class="modal-form-input modal-form-number" id="number-children" type="number" name="number-children" min="0" value="2" required>
+                <button class="modal-form-button button-more" type="button">
+                  <svg class="button-icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+                    <path d="M17 9h-6V3H9v6H3v2h6v6h2v-6h6V9Z"/>
+                    </svg>
+                  <span class="visually-hidden">Увеличить количество человек.</span>
+                </button>
+              </div>
+              <button class="button button-blue button-modal" type="submit">Найти</button>
+            </form>
+          </div>
+        </section>
+      </div>
+    </div>
   </body>
 </html>
